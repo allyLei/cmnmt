@@ -1,0 +1,17 @@
+\d+
+*.db
+*.sh
+*.txt
+*log*
+multi-bleu.perl
+*.pt
+*.pyc
+#.*
+.idea
+*.sublime-*
+.DS_Store
+data/
+build/
+nohup.out
+test/
+*.bak

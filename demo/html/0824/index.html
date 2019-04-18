@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>translate</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/css/min.css">
+</head>
+
+<body>
+    <div class="logo"></div>
+    <div class="container">
+        <div class="top">
+            <h2></h2>
+            <h1>Cheetah Mobile AI Lab</h1>
+
+            <a href="javascript:;" class="debug all-update">更新功能</a>
+        </div>
+        <div class="main">
+            <form class="trans-form">
+                <div class="txt-main">
+                    <select class="before-opt">
+                        <option value="en">English</option>
+                        <option value="ch">Chinese</option>
+                    </select>
+                    
+                    <textarea class="before-lan" placeholder="输入要翻译的文字"></textarea>
+                    <i class="clear">X</i>
+                </div>
+
+                <input type="submit" class="submit" value="">
+                
+                <div class="txt-main">
+                   <div class="trans-mian">
+                        <select class="after-opt">
+                        <option value="ch">Chinese</option>
+                        <option value="en">English</option>
+                    </select>
+                    
+                    <!--<span>转换后语言</span>-->
+                    <ul class="debug de-trans">
+                        <li data-value= "cmcm" class="on">cmcm</li>
+                        <li data-value= "google">google</li>
+                        <li data-value= "youdao">youdao</li>
+                        <li data-value= "baidu">baidu</li>
+                    </ul>
+
+                   </div>
+                   
+                    <textarea class="after-lan" placeholder=""></textarea>
+
+                </div>
+
+            </form>
+            <div class="buttons">
+                <!--<a href="#" class="download">download</a>-->
+                <a href="#" class="copy">
+                    <!--<span class="icon-files-empty"></span>-->
+                    Copy</a>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        © 2017 猎豹移动版权所有
+    </footer>
+
+    <script src="./src/js/lib.js"></script>
+</body>
+
+</html>
